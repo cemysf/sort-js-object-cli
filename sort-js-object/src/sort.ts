@@ -60,3 +60,5 @@ const getIdentifier = R.converge(firstDefinedValue, [
     R.path(['key', 'value']),
     R.path(['id', 'name']),
 ]);
+
+export default sort;
